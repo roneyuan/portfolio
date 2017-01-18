@@ -1,0 +1,104 @@
+/* .navbar {
+  background:gray;		
+}*/
+
+html, body {
+  margin: 0;	
+}
+main .row {
+  /*margin: 20px auto;*/
+  text-align: center;
+}
+
+header .intro {
+  background:yellow; /* To be changed */
+  height: 600px; /* To be changed */
+}
+
+header .intro .pic {
+  text-align: center;
+  padding-top: 2.5%;
+}
+
+header .intro .pic img {
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+}
+
+header .intro .basic{
+  font-size: 2em;
+  text-align: center;
+  padding-top: 5%;
+}
+header .nav, main .social {
+  text-align:center;	
+}
+header .intro .nav li {
+  display: inline-block;
+  width: 15%;
+  text-align:center;
+  padding-top: 5%;
+} 
+
+header .intro .social li {
+  display: inline-block;
+  width: 18%;
+  text-align:center;
+  padding-top: 5%;
+}
+
+main .portfolio {
+  background:gray;	
+}
+
+main .skill {
+  background:blue;	
+}
+
+main .experience {
+  background:purple;	
+  height: 600px; /* To be changed */
+}
+
+main .others {
+  background:green;	
+  height: 600px; /* To be changed */
+}
+
+img {
+  width:100%;	
+  height: 100%;
+}
+
+.box, .technologies, .description, .icon, .name {
+  border-style: groove;	
+}
+
+.box {
+  height: 250px;	
+  padding-top: 10%;	
+}
+
+.icon {
+  padding-top: 5%;
+}
+
+.frontend {
+  padding-top:5%;
+}
+
+.backend {
+  padding-top:5%;
+}
+
+.framework {
+  padding-top:5%;
+}
+
+/* Mobile */
+@media only screen and (max-width: 640px) {
+  .box {
+    height: 350px;	/* To be changed */
+  }	
+}
