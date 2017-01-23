@@ -2,6 +2,9 @@
   background:gray;		
 }*/
 
+* {
+  box-sizing: border-box;
+}
 html, body {
   margin: 0;	
 }
@@ -11,8 +14,9 @@ main .row {
 }
 
 header .intro {
-  background:yellow; /* To be changed */
+  background-image: url('img/bg.jpg'); /* To be changed */
   height: 600px; /* To be changed */
+  background-size: cover;
 }
 
 header .intro .pic {
@@ -72,7 +76,7 @@ img {
 }
 
 .box, .technologies, .description, .icon, .name {
-  border-style: groove;	
+  border-style: none;	
 }
 
 .box {
