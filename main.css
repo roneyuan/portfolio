@@ -15,7 +15,7 @@ main .row {
 
 header .intro {
   background-image: url('img/bg.jpg'); /* To be changed */
-  height: 600px; /* To be changed */
+  height: 768px; /* To be changed */
   background-size: cover;
 }
 
@@ -40,14 +40,14 @@ header .nav, main .social {
 }
 header .intro .nav li {
   display: inline-block;
-  width: 15%;
+  width: 20%;
   text-align:center;
-  padding-top: 5%;
+  padding-top: 15%;
 } 
 
 header .intro .social li {
   display: inline-block;
-  width: 18%;
+  width: 19%;
   text-align:center;
   padding-top: 5%;
 }
@@ -61,7 +61,7 @@ main .skill {
 }
 
 main .experience {
-  background:purple;	
+  background:gray;	
   height: 600px; /* To be changed */
 }
 
@@ -73,6 +73,11 @@ main .others {
 img {
   width:100%;	
   height: 100%;
+}
+
+
+.social li img {
+  width: 50%;
 }
 
 .box, .technologies, .description, .icon, .name {
@@ -98,6 +103,10 @@ img {
 
 .framework {
   padding-top:5%;
+}
+
+.content_exp {
+  text-align: left;
 }
 
 /* Mobile */
