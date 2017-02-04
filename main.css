@@ -57,7 +57,7 @@ header .intro .social li {
 }
 
 main .portfolio {
-  background:gray;	
+  background:#BFE9FF;	
 }
 
 main .skill {
@@ -65,12 +65,12 @@ main .skill {
 }
 
 main .experience {
-  background:gray;	
+  background:#BFE9FF;	
   height: 600px; /* To be changed */
 }
 
 main .others {
-  background:green;	
+  background: #FFFDD6;	
   height: 600px; /* To be changed */
 }
 
@@ -81,7 +81,6 @@ img {
 
 a {
   text-decoration: none;
-
 }
 
 button {
@@ -90,6 +89,14 @@ button {
   cursor: pointer;
 }
 
+.timeline {
+  font-size: 1.6em;
+}
+
+.timeline li {
+  list-style-type: none;
+  margin: 5% auto
+}
 .social li img {
   width: 50%;
 }
