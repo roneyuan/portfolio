@@ -76,9 +76,19 @@ main .others {
 
 img {
   width:80%;	
-  //height: 100%;
 }
 
+
+a {
+  text-decoration: none;
+
+}
+
+button {
+  width: :60px;
+  height: 30px;
+  cursor: pointer;
+}
 
 .social li img {
   width: 50%;
@@ -90,13 +100,20 @@ img {
 
 .technologies, .description,.name {
   padding-top: 20px;
-  height: 80px;
+  height: 120px;
 }
 
+.description2 {
+  height:260px;
+}
 
 .box {
-  height: 250px;	
+  height: 220px;	
   padding-top: 10%;	
+}
+
+.box img {
+  border-radius: 50%;
 }
 
 .icon {
@@ -123,6 +140,11 @@ img {
 /* Mobile */
 @media only screen and (max-width: 640px) {
   .box {
-    height: 350px;	/* To be changed */
+    height: 300px;	/* To be changed */
   }	
+
+  .icon {
+    width: 40%;
+    margin: auto;
+  }
 }
