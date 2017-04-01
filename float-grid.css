@@ -26,7 +26,7 @@
   clear: both;
 }
 
-.col-3 {
+.col-3, .col-6 {
   float: left;
   padding-left: 1.04166666%;
   padding-right: 1.04166666%;
@@ -37,6 +37,9 @@
   width: 25%;
 }
 
+.col-6 {
+  width: 50%;
+}
 /* Mobile */
 @media only screen and (max-width: 640px) {
 	.col-3 {

@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-  font-style: serif;
+  /*font-style: serif;*/
 }
 main .row {
   /*margin: 20px auto;*/
@@ -65,8 +65,19 @@ header .intro .basic {
 }
 
 .basic {
-  text-indent: 30px;
+  /*text-indent: 30px;*/
   height: 500px;
+}
+
+.basic-name, .basic-title {
+  text-indent: 30px;
+}
+
+.basic-quote {
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+  margin: 100px;
 }
 
 header .social {
@@ -112,7 +123,7 @@ a:visited {
 }
 
 main .portfolio {
-  background:#BFE9FF;	
+  /*background:#BFE9FF;	*/
 }
 
 main .skill {
@@ -164,7 +175,10 @@ button {
   padding-top: 20px;
   height: 120px;
 }
-
+.technologies {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .description2 {
   height:260px;
 }
