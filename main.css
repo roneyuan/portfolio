@@ -1,57 +1,38 @@
 * {
   box-sizing: border-box;
   font-family: 'Fira Mono', monospace;
+}
 
+html, body {
+  margin: 0;  
 }
 
 a {
   cursor: pointer;
   color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+
+img {
+  width:80%;  
+}
+
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #5f5d6d;
+
 }
 
 hr {
   border: 0;
   border-top: 1px solid #ccc;
   margin: 1em 0;
-}
-
-main h1 {
-  text-align: center;
-}
-
-.projects-box {
-  height: 300px;
-  border: 1px solid #ccc;
-  margin: 25px auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 5px;
-}
-
-.skillsets {
-  text-align: left;
-  margin: 50px auto;
-}
-
-.main-stack, .secondary-stack {
-  font-size: 20px;
-}
-
-html, body {
-  margin: 0;	
-}
-
-body {
-}
-
-main .row {
-  text-align: center;
-}
-
-.nav {
-  text-align: center;
-  padding-bottom: 15px;
-  padding-top: 15px;
 }
 
 header {
@@ -83,21 +64,6 @@ header .intro .basic {
   line-height: 37.5px;
 }
 
-.basic {
-  height: 500px;
-}
-
-.basic-name, .basic-title {
-  text-indent: 30px;
-}
-
-.basic-quote {
-  font-style: italic;
-  font-size: 25px;
-  text-align: center;
-  margin: 100px;
-}
-
 header .social, footer .social {
   background-color: rgba(30,30,30,0.9);
   padding-bottom: 20px;
@@ -105,10 +71,7 @@ header .social, footer .social {
   bottom: 0;
   text-align: center;
 }
-main .social {
-  text-align:center;
 
-}
 header .intro .nav li, footer .nav li {
   display: inline-block;
   width: 20%;
@@ -125,8 +88,10 @@ header .intro .nav, footer .nav {
   font-size: 20px;
 }
 
-footer .social {
-  background-color: rgba(10,10,10,0.85);
+.nav {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .nav ul {
@@ -134,42 +99,62 @@ footer .social {
   color: white;
 }
 
-a:visited {
-  color: white;
+main .row {
+  text-align: center;
 }
 
-main .portfolio {
-  /*background:#BFE9FF;	*/
+main h1 {
+  text-align: center;
+}
+
+main .social {
+  text-align:center;
+
 }
 
 main .skill {
-  background:blue;	
+  background:blue;  
 }
 
 main .experience {
-  /*background:#BFE9FF;	*/
   text-align: left;
 }
 
-main .others {
-  /*background: #FFFDD6;	*/
-
-}
-
-img {
-  width:80%;	
-}
-
-
-a {
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
+.projects-box {
+  height: 300px;
+  border: 1px solid #ccc;
+  margin: 25px auto;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 5px;
-  background-color: #5f5d6d;
+}
 
+.main-stack, .secondary-stack {
+  font-size: 20px;
+}
+
+.skillsets {
+  text-align: left;
+  margin: 50px auto;
+}
+
+.basic {
+  height: 500px;
+}
+
+.basic-name, .basic-title {
+  text-indent: 30px;
+}
+
+.basic-quote {
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+  margin: 100px;
+}
+
+footer .social {
+  background-color: rgba(10,10,10,0.85);
 }
 
 .github-button, .demo-button {
@@ -177,7 +162,6 @@ button {
   height: 50px;
   border-style: none;
   font-size: 15px;
-  /*border: 2px solid black;*/
   color: white;
 }
 
@@ -198,24 +182,17 @@ button {
   border-style: none;	
 }
 
-.portfolio-image {
-
-}
-
-.porfolio-description {
-
-}
-
 .technologies, .description,.name {
   padding-top: 20px;
   height: 120px;
 }
+
 .technologies {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .description2 {
-  /*height:260px;*/
   text-align: left;
   font-size: 15px;
   line-height: 20px; 
@@ -233,18 +210,6 @@ button {
 .icon {
   padding-top: 5%;
   height: 200px;
-}
-
-.frontend {
-  padding-top:5%;
-}
-
-.backend {
-  padding-top:5%;
-}
-
-.framework {
-  padding-top:5%;
 }
 
 .content_exp {
