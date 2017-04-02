@@ -216,6 +216,9 @@ button {
 }
 .description2 {
   /*height:260px;*/
+  text-align: left;
+  font-size: 15px;
+  line-height: 20px; 
 }
 
 .box {
