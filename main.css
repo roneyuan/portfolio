@@ -42,10 +42,9 @@ html, body {
 }
 
 body {
-  /*font-style: serif;*/
 }
+
 main .row {
-  /*margin: 20px auto;*/
   text-align: center;
 }
 
@@ -60,7 +59,7 @@ header {
 }
 
 header .intro {
-  background-image: url('img/bg.jpg'); /* To be changed */
+  background-image: url('img/bg.jpg');
   background-size: cover;
 }
 
@@ -169,6 +168,7 @@ a {
 button {
   cursor: pointer;
   border-radius: 5px;
+  background-color: #5f5d6d;
 
 }
 
@@ -177,7 +177,7 @@ button {
   height: 50px;
   border-style: none;
   font-size: 15px;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   color: white;
 }
 
