@@ -10,12 +10,12 @@ a {
 }
 
 hr {
-      border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
 }
 
-h1 {
+main h1 {
   text-align: center;
 }
 
@@ -51,12 +51,14 @@ main .row {
 
 .nav {
   text-align: center;
-      padding-bottom: 15px;
-    padding-top: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
+
 header {
   height :100%;
 }
+
 header .intro {
   background-image: url('img/bg.jpg'); /* To be changed */
   background-size: cover;
@@ -97,7 +99,7 @@ header .intro .basic {
   margin: 100px;
 }
 
-header .social {
+header .social, footer .social {
   background-color: rgba(30,30,30,0.9);
   padding-bottom: 20px;
   padding-top: 20px;
@@ -108,20 +110,24 @@ main .social {
   text-align:center;
 
 }
-header .intro .nav li {
+header .intro .nav li, footer .nav li {
   display: inline-block;
   width: 20%;
 } 
 
-header .intro .social li {
+header .intro .social li, footer .social li {
   display: inline-block;
   text-align:center;
 }
 
 
-header .intro .nav {
-    background-color: rgba(10,10,10,0.85);
-    font-size:20px;
+header .intro .nav, footer .nav {
+  background-color: rgba(10,10,10,0.85);
+  font-size: 20px;
+}
+
+footer .social {
+  background-color: rgba(10,10,10,0.85);
 }
 
 .nav ul {
@@ -247,7 +253,7 @@ button {
 }
 
 /* Mobile */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
   .box {
     height: 300px;	/* To be changed */
   }	
