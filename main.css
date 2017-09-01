@@ -5,7 +5,7 @@
 
 html, body {
   margin: 0;  
-  min-width: 600px;
+  /*min-width: 300px;*/
 }
 
 a {
@@ -66,7 +66,7 @@ header .intro .basic {
 }
 
 header .social, footer .social {
-  background-color: rgba(30,30,30,0.9);
+  background-color: rgba(105,103,103,0.75);
   padding-bottom: 20px;
   padding-top: 20px;
   bottom: 0;
@@ -87,6 +87,10 @@ header .intro .social li, footer .social li {
 header .intro .nav, footer .nav {
   background-color: rgba(10,10,10,0.85);
   font-size: 20px;
+}
+
+footer {
+
 }
 
 .nav {
@@ -178,7 +182,7 @@ main .aboutme {
 }
 
 footer .social {
-  background-color: rgba(10,10,10,0.85);
+  background-color: rgba(10,10,10,0.75);
 }
 
 .github-button, .demo-button {
@@ -220,7 +224,7 @@ footer .social {
 .description2 {
   text-align: left;
   font-size: 15px;
-  line-height: 20px; 
+  line-height: 30px; 
 }
 
 .box {
@@ -258,5 +262,78 @@ footer .social {
   .icon {
     width: 40%;
     margin: auto;
+  }
+
+  .basic-name {
+    font-size: 12px;
+    text-indent: 0px;
+    text-align: center;    
+  }
+
+  .basic-title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .basic-quote {
+    margin: 50px auto;
+  }
+
+  header .intro .social ul {
+    padding: 0;
+  }
+
+  header .intro .social li {
+    padding: 15px 0;
+  }
+  
+  footer .nav {
+    background-color: rgba(10,10,10,0.75);
+  }
+
+  footer .social ul {
+    padding: 0;
+  }
+
+  footer .social li {
+    padding: 15px 0;
+  }
+
+  .portfolio-title {
+    font-size: 12px;
+  }
+
+  .technologies {
+    font-size: 15px;
+  }
+
+  .skillsets {
+    line-height: 32px;
+  }
+  .timeline ul {
+    padding: 0;
+  }
+
+  .timeline li {
+    font-size: 12px;
+  }
+
+  header .intro .nav ul {
+    background-color: rgba(10,10,10, 1);
+  }
+  
+  header .intro .nav ul, footer .nav ul {
+    padding: 0;
+    text-align: center;
+    /*background-color: rgba(10,10,10, 1);*/
+  }
+
+  header .intro .nav li, footer .nav li {
+    width: 100%;
+    padding: 10px 0;
+  } 
+
+  .nav {
+    padding: 0;
   }
 }
