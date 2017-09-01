@@ -310,7 +310,7 @@ footer .social {
   .skillsets {
     line-height: 32px;
   }
-  .timeline ul {
+  .timeline .timeline-edu ul {
     padding: 0;
   }
 
@@ -321,7 +321,7 @@ footer .social {
   header .intro .nav ul {
     background-color: rgba(10,10,10, 1);
   }
-  
+
   header .intro .nav ul, footer .nav ul {
     padding: 0;
     text-align: center;
