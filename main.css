@@ -310,12 +310,16 @@ footer .social {
   .skillsets {
     line-height: 32px;
   }
-  .timeline .timeline-edu ul {
+  .timeline ul {
     padding: 0;
   }
 
   .timeline li {
     font-size: 12px;
+  }
+
+  .timeline ul:nth-child(2) {
+    padding: 0 15px;
   }
 
   header .intro .nav ul {
